@@ -10,7 +10,7 @@ import chainer
 from chainer import cuda
 import chainer.functions as F
 import chainer.links
-from chainer.functions import caffe
+from chainer.links import caffe
 from chainer import Variable, optimizers
 
 from models import *
